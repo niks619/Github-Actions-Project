@@ -3,9 +3,9 @@ FROM openjdk:8-jre-alpine
 
 # Set environment variables for AppDynamics
 
-ENV APPDYNAMICS_AGENT_ACCOUNT_NAME="enhancedsoftwaresolutions-nfr" \
-    APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY="rrsmdhycl108" \
-    APPDYNAMICS_CONTROLLER_HOST_NAME="enhancedsoftwaresolutions-nfr.saas.appdynamics.com" \
+ENV APPDYNAMICS_AGENT_ACCOUNT_NAME="account-name" \
+    APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY="access-ky" \
+    APPDYNAMICS_CONTROLLER_HOST_NAME="controller-name" \
     APPDYNAMICS_CONTROLLER_PORT="443" \
     APPDYNAMICS_CONTROLLER_SSL_ENABLED="true" \
     APPDYNAMICS_AGENT_APPLICATION_NAME="SampleApp-JAVA" \
